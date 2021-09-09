@@ -1,22 +1,8 @@
-import styles from '../../styles/Portfolio.module.css'
-import Link from 'next/link'
+import Layout from '@/components/portfolio/layout'
 
-export default function Home() {
+export default function Skill() {
   return (
-    <div className={styles.container}>
-      <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header className="mb-auto">
-        <div>
-        <h3 className="float-md-start mb-0"><i><Link href="/portfolio"><a>sj.Kim</a></Link></i></h3>
-          <nav className="nav nav-masthead justify-content-center float-md-end">
-            <Link href="/portfolio/about"><a className="nav-link" aria-current="page" href="#">About</a></Link>
-            <Link href="/portfolio/skill"><a className="nav-link" aria-current="page" href="#">Experience & Skill</a></Link>
-            <Link href="/portfolio/contact"><a className="nav-link" aria-current="page" href="#">Contact</a></Link>
-          </nav>
-        </div>
-      </header>
-
-      <main className={styles.main} > 
+    <Layout>
         <div className="p-5 mb-4 rounded-3 row">
           <div className="col-md-4">
             <div className="g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -61,15 +47,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </main>
-      
-      </div>
-      <footer className={styles.footer}>
-        <span>
-          <a href="https://67crystalk.tistory.com/" target="blank">💻Blog</a>
-          <p>✉67crystalk@gmail.com</p>
-        </span>
-      </footer>
-    </div>
+    </Layout>
   )
 }
