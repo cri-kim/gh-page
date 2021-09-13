@@ -9,7 +9,7 @@
   border-radius: 30px;
   background-color:#0070f3;
 
-  animation: moveBall 4s 1s infinite;
+ animation: moveBall 4s 1s infinite;
 }
 
 @keyframes moveBall {
