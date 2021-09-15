@@ -1,0 +1,14 @@
+#cloud {
+  animation: cloudFlow1 5s 2s infinite alternate;
+  position:absolute;
+}
+@keyframes cloudFlow1{
+  from{
+    left:0px;
+    opacity: 0.2;
+  }
+  to{
+    left:calc(80% - 100px);
+    opacity: 1;
+  }
+}
