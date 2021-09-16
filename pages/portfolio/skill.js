@@ -13,8 +13,7 @@ export default function Skill() {
                   <li>javascript에 대한 이해</li>
                   <li>HTML, CSS 등 W3C웹 표준 규격에 대한 이해</li>
                   <li>크로스브라우징, 웹 표준, 웹 접근성에 대한 이해와 경험</li>
-                  <li>Angular, React 활용 개인 프로젝트(진행중)</li>
-                  <li>웹 프론트엔드 테스트 자동화(진행중)</li>
+                  <li>Angular, React 활용 </li>
                 </ul>
               </div>
             </div>
@@ -24,7 +23,7 @@ export default function Skill() {
               <div className="col p-4 d-flex flex-column position-static">
                 <ul className="list-unstyled text-small">
                   <li><b><i>Backend</i></b></li>
-                  <li>Spring,Spring boot 개발</li>
+                  <li>Spring을 이용한 개발</li>
                   <li>Django를 통한 API 개발 학습</li>
                   <li>API 설계 및 서버 구축</li>
                   <li>테스트, 배포 자동화</li>
