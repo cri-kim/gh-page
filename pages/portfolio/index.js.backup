@@ -1,5 +1,6 @@
-import Layout from '@/components/fullscreen/layout'
-import Navbar from '@/components/fullscreen/navbar';
+import Layout from '@/components/portfolio/layout'
+import Cloud from '@/components/avatars/cloud'
+import Cat from '@/components/avatars/cat'
 import React, {Component} from 'react';
 
 class Home extends Component {
@@ -14,10 +15,10 @@ class Home extends Component {
   }
   render(){
     return (
-      <div>
-        <Navbar/>
-        <Layout/>
-      </div>
+      <Layout>
+          <Cloud/>
+          <Cat onCreate={this.handleCreate}></Cat>
+      </Layout>
     );
   }
 }
