@@ -24,19 +24,40 @@
   margin: 0 8px;
   float: left;
 }
+
+.dropdown{
+  visibility: inherit;
+  position: absolute;
+}
+.dropdownContent {
+  display: none;
+  opacity: 1;
+  visibility: inherit;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: auto;
+  height: 50px;
+}
+
 @media (max-width: 768px){
   .menu {
+    display:block;
     position: relative;
-  /*  width: 30px;
-    height: 30px;
     margin: 0 0 6px 0;
-  */  float: none;
+    float: none;
   }
   .asideBtn{
     position: relative;
-  /*  width: 30px;
-   height: 30px;
-    margin: 0 0 6px 0;
-   */  float: none;
+    margin: 0 0 6px 0;  
+    float: none;
+    display:none;
   }
+  .asideOpen{
+    top: 10px;
+  }
+  .dropdown{
+    top: 10px;
+  }
+  .dropdown:hover .dropdownContent { display: block; width:100%;}
 }

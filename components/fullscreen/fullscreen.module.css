@@ -7,15 +7,16 @@
 
 .about{
   position: relative;
-  width: 30%;
+  width: 40%;
   height: 100vh;
   float: left;
-  background-color: #B4DBD2;
+  background-color: #000000;
+  font-size:0.6vw;
+  text-align:center;
 }
-
 .exp {
   position: relative;
-  width: 70%;
+  width: 60%;
   height: 50vh;
   float: left;
   background-color: #FFDE8A;
@@ -23,12 +24,45 @@
 
 .contact {
   position: relative;
-  width: 70%;
+  width: 60%;
   height: 50vh;
   float: left;
   background-color: #2E3C68;
 }
 
+.select1, .select2, .select3, .select4 {
+  padding: 5px 20px;
+  text-align:left;
+ }
+.select1:hover, .select2:hover, .select3:hover, .select4:hover {
+   color: green;
+}
+
+.text {
+  padding: 5px 20px;
+  width: 100%;
+  text-align:left;
+  float:left;
+  opacity:1;
+  animation-name: textAni;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 1.6s;
+}
+.text:first-child{
+  animation-delay: 0.7s;
+}
+.text:last-child{
+  animation-delay: 5s;
+}
+@keyframes textAni{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 @media (max-width: 768px){
   .about {
     width: 100%;
