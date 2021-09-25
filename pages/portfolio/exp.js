@@ -1,4 +1,4 @@
-import Layout from '@/components/portfolio/layout'
+import Layout from '@/components/fullscreen/layout'
 
 export default function Exp() {
   return (

@@ -1,63 +1,44 @@
 .aside {
- position: relative;
- z-index: 12;
-}
-.asideOpen{
   opacity: 1;
   visibility: inherit;
   position: absolute;
   top: 20px;
   right: 20px;
-  width: auto;
+  width: 100px;
   height: 50px;
-}
-.menu {
-  display: none;
+  z-index: 1;
+  text-align: right;
 }
 .asideBtn {
   background-color: inherit;
   border: inherit;
   position: relative;
- /* width: 50px;
-  height: 50px;
-  */
-  margin: 0 8px;
+  width: 100%;
+  
   float: left;
+  white-space: nowrap;
 }
 
 .dropdown{
-  visibility: inherit;
-  position: absolute;
+  width:100%;
+  display: block;
+  position: relative;
+  float: right;
+}
+
+.dropdownButton {
+  font-size: 15px;
+  border: none;
+  background-color: inherit;
+  border-radius: 10px;
 }
 .dropdownContent {
   display: none;
-  opacity: 1;
-  visibility: inherit;
   position: absolute;
-  top: 20px;
-  right: 20px;
-  width: auto;
-  height: 50px;
 }
+.asideBtn:hover svg path{ fill: #CD853F !important}
+.dropdown:hover .dropdownContent { display: block; }
+.dropdown:hover .dropdownButton { background-color: #CD853F; }
 
 @media (max-width: 768px){
-  .menu {
-    display:block;
-    position: relative;
-    margin: 0 0 6px 0;
-    float: none;
-  }
-  .asideBtn{
-    position: relative;
-    margin: 0 0 6px 0;  
-    float: none;
-    display:none;
-  }
-  .asideOpen{
-    top: 10px;
-  }
-  .dropdown{
-    top: 10px;
-  }
-  .dropdown:hover .dropdownContent { display: block; width:100%;}
 }
