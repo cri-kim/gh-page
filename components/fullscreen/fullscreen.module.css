@@ -2,7 +2,15 @@
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-color:green;
+  background-color:#FFDE8A;
+}
+.container {
+  background-color:#FFDE8A;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  height:100vh;
+  width:100vw;
+  overflow: auto;
 }
 .innerLayer {
   margin: auto;
@@ -27,7 +35,7 @@
   text-align:left;
  }
 .select1:hover, .select2:hover, .select3:hover, .select4:hover {
-   color: green;
+   color: #FFDE8A;
 }
 
 .text {
@@ -58,6 +66,10 @@
 @media (max-width: 768px){
   .about {
     width: 100%;
-    height: 100vh;
+    padding:0;
+    overflow: auto;
+  }
+  .innerLayer{
+    top: 70%;
   }
 }

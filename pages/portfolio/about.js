@@ -1,8 +1,8 @@
-import Layout from '@/components/fullscreen/layout'
+import Layout2 from '@/components/fullscreen/layout2'
 export default function About() {
   return (
-    <Layout>
-      <div className="p-5 mb-4 bg-light rounded-3">
+    <Layout2>
+      <div className="p-5 mb-4 rounded-3">
         <p>
           저는 Java N Spring Framework 기반의 웹 서비스를 개발 및 운영하였으며,
           서비스간 연동 업무, 백오피스 개발, UI/UX를 고려한 화면 개발을 진행하였습니다.
@@ -21,6 +21,6 @@ export default function About() {
           정보의 가치를 만들어나가는 개발자가 되고싶습니다.
         </div>
       </div>
-    </Layout>
+    </Layout2>
   )
 }

@@ -19,7 +19,10 @@ class Home extends Component {
         <div className="row align-items-center">
             <div className="col-sm-6">
             <h1 className="text-primary fw-bold display-3">Hi, I&apos;m Sujung</h1>
-            <p>I’m Computer Engineer.</p>
+            <p className="text-start p-2">&nbsp;열정으로 미래를 여는 개발자 김수정 입니다. 🚀 
+            다양한 프로그래밍 언어(javascript, java, C, C++, C#, go, rust 등)과 프레임워크, 라이브러리 오픈소스 등에 관심이 있습니다.📚 항상 역량을 향상시키고 아는 것을 정리 할 수 있는 학습법에 대해 고민하고 있습니다. 개발에 대한 스터디, 컨퍼런스 등 다양한 기회를 나누고 싶습니다.🙆‍♀️</p>
+            <p className="text-start p-2">&nbsp; A passionate Software Developer having an experience of building Web/App application.🚀 I&apos;m intereted in studying Prgramming language(Javascript, Java, C, C++, Go,...) and some other cool libraries and framework.📚 Study with me. 🙆‍♀️</p>
+            
             <div className="text-center">
               <Link href="/portfolio/contact">
               <a className="btn btn-primary my-1 mx-3" href="#">Contact Me</a>

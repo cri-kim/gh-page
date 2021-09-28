@@ -1,8 +1,8 @@
-import Layout from '@/components/fullscreen/layout'
+import Layout2 from '@/components/fullscreen/layout2'
 
 export default function Skill() {
   return (
-    <Layout>
+    <Layout2>
         <div className="p-5 mb-4 rounded-3 row">
           <div className="col-md-4">
             <div className="g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -46,6 +46,6 @@ export default function Skill() {
             </div>
           </div>
         </div>
-    </Layout>
+    </Layout2>
   )
 }

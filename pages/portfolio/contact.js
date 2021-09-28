@@ -1,11 +1,12 @@
-import Layout from '@/components/fullscreen/layout'
+import Layout2 from '@/components/fullscreen/layout2'
 
 export default function Contact() {
   return (
-    <Layout>
-      67crystalk@gmail.com <br/>
-      https://github.com/cri-kim <br/>
-            Contact Me :)
-    </Layout>
+    <Layout2>
+      <div style={{position:"absolute", top:"50%",left:"25%"}}>
+      67crystalk@gmail.com<br/>
+      Contact Me :)
+       </div>
+    </Layout2>
   )
 }
